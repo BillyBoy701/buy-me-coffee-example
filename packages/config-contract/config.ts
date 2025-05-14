@@ -1,5 +1,5 @@
 export const config = {
-  "CONTRACT_ADDRESS": "0xbf0f3f5b273693bd6552567631d2615ffd5f4b35"
+  "CONTRACT_ADDRESS": "0xf97e8eb1902331810f2beeed99a096dac746528e"
 };
 export const COFFEE_CONTRACT_ABI = [
   {

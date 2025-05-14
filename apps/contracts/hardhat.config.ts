@@ -4,10 +4,6 @@ import "@nomicfoundation/hardhat-ethers";
 import '@vechain/sdk-hardhat-plugin';
 
 const config: HardhatUserConfig = {
-  solidity: '0.8.20',
-};
-
-module.exports = {
   solidity: {
     version: '0.8.20',
     evmVersion: 'paris',
@@ -19,13 +15,12 @@ module.exports = {
     },
   },
   networks: {
-
     vechain_solo: {
       // Solo
       url: 'http://localhost:8669',
       accounts: {
         mnemonic:
-            'denial kitchen pet squirrel other broom bar gas better priority spoil cross',
+            'ghost hobby push dial blouse once express defense rural ten helmet pupil',
         path: "m/44'/818'/0'/0",
         count: 3,
         initialIndex: 0,
@@ -43,7 +38,7 @@ module.exports = {
       url: 'https://testnet.vechain.org',
       accounts: {
         mnemonic:
-            'vivid any call mammal mosquito budget midnight expose spirit approve reject system',
+            'ghost hobby push dial blouse once express defense rural ten helmet pupil',
         path: "m/44'/818'/0'/0",
         count: 3,
         initialIndex: 0,
